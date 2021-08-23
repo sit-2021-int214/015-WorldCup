@@ -3,16 +3,34 @@ Explore 2 dataset that given then finding descriptive statistics and summary res
 
 ### Answer
 
-1.) In cats data. Have female cats and 97 male cats.
+1.) In cats data. Have 47 female's cats and 97 male's cats.
 ```{R}
-table(cats$Sex)
+factor(cats$Sex)
+gender <- factor(cats$Sex)
+summary(gender)
 ```
 
-2.) Descriptive statistics Statement
+2.) In cats data. The minimum of cat's heart weight is 6.3 g .
 ```{R}
-Code here
+min(cats$Hwt)
+```
+3.) In cats data. The mean of cat's heart weight is 10.63056 g .
+```{R}
+mean(cats$Hwt)
 ```
 
+4.) In survey data. Have 118 female and 118 male .
+```{R}
+table(survey$Sex)
+```
+
+5.) In survey data. Show results of people who smoke. Of the 11 people who heavy smokers, 189 people who never smoked.
+Occasionally 19 people and Regularly 17 people
+```{R}
+factor(survey$Smoke)
+Smoker <- factor(survey$Smoke)
+summary(Smoker)
+```
 
 ### Team: 015 - WorldCup
 
