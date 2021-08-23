@@ -14,10 +14,10 @@ Code here
 ```
 
 
-### Team: xxxxxxx
+### Team: 015 - WorldCup
 
-1. ชื่อ นามสกุล     StudentID: 63130500xxx
-2. ชื่อ นามสกุล     StudentID: 63130500xxx
-3. ชื่อ นามสกุล     StudentID: 63130500xxx
-4. ชื่อ นามสกุล     StudentID: 63130500xxx
-5. ชื่อ นามสกุล     StudentID: 63130500xxx
+1. ณิชกานต์ ปาสาณี     StudentID: 63130500036
+2. ดวงกมล เจริญวัฒนมงคล    StudentID: 63130500038
+3. ธนดล หวังศิริสมบูรณ์    StudentID: 63130500047
+4. นภัสวรรณ บุตรวัตร      StudentID: 63130500064
+5. นิธิ ลำพาย     StudentID: 63130500072
