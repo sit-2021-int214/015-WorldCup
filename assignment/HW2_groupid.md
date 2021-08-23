@@ -3,9 +3,9 @@ Explore 2 dataset that given then finding descriptive statistics and summary res
 
 ### Answer
 
-1.) From survey, most students use left hand writing.
+1.) In cats data. Have female cats and 97 male cats.
 ```{R}
-Code here
+table(cats$Sex)
 ```
 
 2.) Descriptive statistics Statement
