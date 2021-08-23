@@ -14,7 +14,7 @@ Datasets from: [name](link)
 2. ดวงกมล เจริญวัฒนมงคล  StudentID: 63130500038
 3. ธนดล หวังศิริสมบูรณ์    StudentID: 63130500047
 4. นภัสวรรณ บุตรวัตร      StudentID: 63130500064
-5. นิธิ ลำพาย     StudentID: 63130500072
+5. นิธิศ ลำพาย     StudentID: 63130500072
 
 ### Instructor
 - ATCHARA TRAN-U-RAIKUL
