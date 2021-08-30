@@ -51,9 +51,7 @@ summary(Smoker)
 ```
 Explore Data with dpylr
 ```{R}
-survey %>% dplyr::select(Smoke) %>%filter(Smoke == "Heavy" | Smoke == "Never"
-                                          | Smoke == "Occas"| Smoke == "Regul") %>%
-  count(Smoke)
+survey %>% dplyr::select(Smoke) %>%filter(Smoke == "Heavy" | Smoke == "Never" | Smoke == "Occas"| Smoke == "Regul") %>% count(Smoke)
 ```
 
 ### Team: 015 - WorldCup
