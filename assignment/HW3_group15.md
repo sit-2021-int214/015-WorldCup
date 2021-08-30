@@ -12,7 +12,7 @@ summary(gender)
 ```
 Explore Data with dpylr
 ```{R}
-
+cats %>% dplyr::select(Sex) %>% count(Sex)
 ```
 
 
