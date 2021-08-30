@@ -22,7 +22,7 @@ min(cats$Hwt)
 ```
 Explore Data with dpylr
 ```{R}
-
+cats %>% dplyr::select(Hwt) %>% min()
 ```
 3.) In cats data. The mean of cat's heart weight is 10.63056 g .
 ```{R}
