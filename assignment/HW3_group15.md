@@ -30,7 +30,7 @@ mean(cats$Hwt)
 ```
 Explore Data with dpylr
 ```{R}
-cats %>% summarise(mean_heart_weight = mean(Hwt, na.rm = TRUE))
+cats %>% dplyr::summarise(mean_heart_weight = mean(Hwt, na.rm = TRUE))
 ```
 
 4.) In survey data. Have 118 female and 118 male .
@@ -39,7 +39,7 @@ table(survey$Sex)
 ```
 Explore Data with dpylr
 ```{R}
-survey %>% filter(!is.na(Sex)) %>% count(Sex)
+survey %>% dplyr::filter(!is.na(Sex)) %>% count(Sex)
 ```
 
 5.) In survey data. Show results of people who smoke. Of the 11 people who heavy smokers, 189 people who never smoked.
@@ -52,6 +52,8 @@ summary(Smoker)
 Explore Data with dpylr
 ```{R}
 survey %>% dplyr::select(Smoke) %>%filter(Smoke == "Heavy" | Smoke == "Never" | Smoke == "Occas"| Smoke == "Regul") %>% count(Smoke)
+
+survey %>% dplyr::filter(!is.na(Smoke)) %>% count(Smoke)
 ```
 
 ### Team: 015 - WorldCup
