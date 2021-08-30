@@ -39,7 +39,7 @@ table(survey$Sex)
 ```
 Explore Data with dpylr
 ```{R}
-
+survey %>% filter(!is.na(Sex)) %>% count(Sex)
 ```
 
 5.) In survey data. Show results of people who smoke. Of the 11 people who heavy smokers, 189 people who never smoked.
