@@ -30,7 +30,7 @@ mean(cats$Hwt)
 ```
 Explore Data with dpylr
 ```{R}
-
+cats %>% summarise(mean_heart_weight = mean(Hwt, na.rm = TRUE))
 ```
 
 4.) In survey data. Have 118 female and 118 male .
