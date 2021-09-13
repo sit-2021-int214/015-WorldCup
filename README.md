@@ -1,4 +1,4 @@
-# GroupID-Datasetname
+# 015-WorldCup
 
 Original Datasets from: [safe-sit23 github](https://github.com/safesit23/INT214-Statistics/blob/main/datasets/products_original.csv)
 
@@ -45,10 +45,10 @@ E.g. กลุ่มของเราเลือกชุดข้อมูล
 ### Team: name of team
 
 1. ณิชกานต์ ปาสาณี StudentID: 63130500036
-2. ดวงกมล เจริญวัฒนมงคล StudentID: 63130500038
+2. ชื่อ นามสกุล StudentID: 63130500xxx
 3. ชื่อ นามสกุล StudentID: 63130500xxx
 4. ชื่อ นามสกุล StudentID: 63130500xxx
-5. ชื่อ นามสกุล StudentID: 63130500xxx
+5. นิธิศ ลำพาย StudentID: 63130500072
 
 ### Instructor
 
