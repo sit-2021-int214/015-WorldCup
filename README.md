@@ -34,7 +34,7 @@ Our group chose this dataset because it contains a wide variety of data. Detaile
 ### Important Files in Repository
 
 - [code_eda.R](./code_eda.R) : Exploratory Data Analysis
-- [products_original.csv](./products_original.csv): Original Dataset
+- [worldcup_original.csv](./WorldCupMatches.csv): Original Dataset
 - [products_clean.csv](./products_original.csv): Clean Dataset
 
 ### References
