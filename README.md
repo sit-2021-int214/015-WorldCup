@@ -2,9 +2,9 @@
 
 Original Datasets from: [WorldCup Dataset](https://www.kaggle.com/mysarahmadbhat/world-cup?select=WorldCupMatches.csv)
 
-### About's Products Datasets
+### About's WorldCup Datasets
 
-This dataset is about's sample uniqlo product that sell in 2021. It includes productID, name of products, type of products, price of products, and number of sold.
+Data from all World Cup results (1930-2014), details for each match (Date, Stage, City, Ref, Home Team, Away Team, Goals, Goals at Half, etc), and details for events (goals, assists, etc) by athlete.
 
 ## Overview
 
