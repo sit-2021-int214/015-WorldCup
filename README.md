@@ -8,7 +8,7 @@ Data from all World Cup results (1930-2014), details for each match (Date, Stage
 
 ## Overview
 
-Our group chose this dataset because it contains a wide variety of data. Detailed results from the first World Cup are detailed.
+Our group choose this dataset because it contains a wide variety of data. Detailed results from the first World Cup are detailed.
 
 ### Steps
 
