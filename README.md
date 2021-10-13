@@ -35,7 +35,7 @@ Our group chose this dataset because they wanted to study match history, scores,
 
 - [code_eda.R](./code_eda.R) : Exploratory Data Analysis
 - [worldcup_original.csv](./WorldCupMatches.csv): Original Dataset
-- [worldcup_clean.csv](): Clean Dataset
+- [worldcup_clean.csv](./worldcup-clean.csv): Clean Dataset
 
 ### References
 
