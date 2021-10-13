@@ -1,6 +1,6 @@
 # 015-WorldCup
 
-Original Datasets from: [safe-sit23 github](https://github.com/safesit23/INT214-Statistics/blob/main/datasets/products_original.csv)
+Original Datasets from: [WorldCup Dataset](https://www.kaggle.com/mysarahmadbhat/world-cup?select=WorldCupMatches.csv)
 
 ### About's Products Datasets
 
