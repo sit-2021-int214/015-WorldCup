@@ -8,8 +8,7 @@ Data from all World Cup results (1930-2014), details for each match (Date, Stage
 
 ## Overview
 
-// Write Statement here
-E.g. กลุ่มของเราเลือกชุดข้อมูลนี้เพราะต้องการศึกษา.....
+Our group chose this dataset because it contains a wide variety of data. Detailed results from the first World Cup are detailed.
 
 ### Steps
 
