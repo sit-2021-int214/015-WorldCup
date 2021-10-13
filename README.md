@@ -30,6 +30,11 @@ View(halfGoals)
 
 2.  สนามไหนที่ใช้ในการแข่งขันบอลโลก 6 ครั้ง
 
+factor(worldcup$Stadium)
+stadium <- factor(worldcup$Stadium)
+summary(stadium)
+which(summary(stadium)==10)
+
 
 ### Steps
 
