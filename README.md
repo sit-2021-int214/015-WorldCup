@@ -23,6 +23,10 @@ Our group chose this dataset because they wanted to study match history, scores,
 
 --
 1.  คู่ไหนที่ยิงประตูครึ่งหลังรวมกันเกิน 4 ประตู
+halfGoals <- worldcup %>% select(Home.Team.Name,Half.time.Home.Goals,Away.Team.Name,Half.time.Away.Goals) %>% rename(Home.Team.Goals = Half.time.Home.Goals,Away.Team.Goals = Half.time.Away.Goals) %>% filter(Away.Team.Goals + Home.Team.Goals > 4)
+halfGoals <- halfGoals %>% mutate(Total.Goals = Home.Team.Goals + Away.Team.Goals)
+View(halfGoals)
+
 2.  สนามไหนที่ใช้ในการแข่งขันบอลโลก 6 ครั้ง
 
 
