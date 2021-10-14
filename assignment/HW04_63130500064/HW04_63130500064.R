@@ -8,10 +8,6 @@ dataset <- read_csv("https://raw.githubusercontent.com/safesit23/INT214-Statisti
 View(dataset)
 
 #dplyr
-datasets <- dataset %>% select(`Customer ID`,`Customer Name`)
-View(datasets)
-
-
 dataset %>% select(`Customer ID`,`Customer Name`)
 dataset %>% filter(`Customer ID` == "CG-12520",`Customer Name` == "Claire Gute")
 dataset %>% arrange(`Customer ID`)
