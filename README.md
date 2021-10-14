@@ -34,7 +34,7 @@ Our group chose this dataset because they wanted to study match history, scores,
 
 ## Table of Contents
 
-1. [Exploratory Data Analysis](01.explore.md)
+1. [Exploratory Data Analysis](./01.explore.md)
 2. [Data Visualization]()
 
 ## Resources
