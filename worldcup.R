@@ -32,9 +32,11 @@ summary(stadium)
 which(summary(stadium)==10)
 
 #3
-worldcup %>% select(Year,Home.Team.Goals,Half.time.Home.Goals) %>% 
+totalGoals <- worldcup %>% select(Year,Home.Team.Goals,Half.time.Home.Goals) %>% 
 filter(worldcup$Year == 1930) %>% 
 summarise(sum.Home.Team.1930 = sum(Home.Team.Goals), sum.Half.Time.Home.Team.1930 = sum(Half.time.Home.Goals))
+View(totalGoals)
+
 
 #4
 Attendance <- worldcup %>% select(Year, Home.Team.Name, Away.Team.Name, Attendance)%>%filter(Attendance > 100000)
