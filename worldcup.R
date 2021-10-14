@@ -21,7 +21,8 @@ View(worldcup)
 write.csv(worldcup,"C:/Users/bammotth/Desktop/worldcupclean.csv", row.names=FALSE)
 
 #1 
-halfGoals <- worldcup %>% distinct() %>% select(Datetime,Home.Team.Name,Half.time.Home.Goals,Away.Team.Name,Half.time.Away.Goals) %>% rename(Home.Team.Goals = Half.time.Home.Goals,Away.Team.Goals = Half.time.Away.Goals) %>% filter(Away.Team.Goals + Home.Team.Goals > 4)
+halfGoals <- worldcup %>% distinct() %>% select(Datetime,Home.Team.Name,Half.time.Home.Goals,Away.Team.Name,Half.time.Away.Goals) 
+%>% rename(Home.Team.Goals = Half.time.Home.Goals,Away.Team.Goals = Half.time.Away.Goals) %>% filter(Away.Team.Goals + Home.Team.Goals > 4)
 halfGoals <- halfGoals %>% mutate(Total.Goals = Home.Team.Goals + Away.Team.Goals)
 View(halfGoals)
 
