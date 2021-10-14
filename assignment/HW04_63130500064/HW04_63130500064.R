@@ -1,6 +1,11 @@
 library(dplyr)
 library(readr)
 
+read_csv("https://raw.githubusercontent.com/safesit23/INT214-Statistics/main/datasets/superstore_sales.csv")
+dataset <- read_csv("https://raw.githubusercontent.com/safesit23/INT214-Statistics/main/datasets/superstore_sales.csv")
+View(dataset)
+
+
 # Base R
 hist(starwars$height)
 plot(x=starwars$height, y=starwars$mass)
@@ -46,3 +51,5 @@ scat_plot+geom_smooth(method="lm") #linear model
 
 # 3: Histogram
 starwars %>% ggplot(aes(x=height))+geom_histogram(binwidth = 15)
+
+
