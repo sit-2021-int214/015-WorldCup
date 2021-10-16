@@ -1,0 +1,101 @@
+# R-Assignment 4
+
+**Created by Thanadol Wangsirisomboon (ID: 63130500047)**
+
+Choose Dataset
+2. Superstore Sales Dataset (Data from Rohit Sahoo,[Kaggle](https://www.kaggle.com/rohitsahoo/sales-forecasting)) >> [Using CSV](https://raw.githubusercontent.com/safesit23/INT214-Statistics/main/datasets/superstore_sales.csv)
+
+
+### Outlines
+1. Explore the dataset
+2. Learning function from Tidyverse
+3. Transform data with dplyr and finding insight the data
+4. Visualization with GGplot2
+
+## Part 1: Explore the dataset
+
+```
+# Library
+library(dplyr)
+library(stringr)
+library(readr)
+library(ggplot2)
+
+# Dataset
+sales <- read.csv("https://raw.githubusercontent.com/safesit23/INT214-Statistics/main/datasets/superstore_sales.csv")
+```
+
+In this dataset has 
+```
+ $ Row.ID       : int  1 2 3 4 5 6 7 8 9 10 ...
+ $ Order.ID     : chr  "CA-2017-152156" "CA-2017-152156" "CA-2017-138688" "US-2016-108966" ...
+ $ Order.Date   : chr  "08/11/2017" "08/11/2017" "12/06/2017" "11/10/2016" ...
+ $ Ship.Date    : chr  "11/11/2017" "11/11/2017" "16/06/2017" "18/10/2016" ...
+ $ Ship.Mode    : chr  "Second Class" "Second Class" "Second Class" "Standard Class" ...
+ $ Customer.ID  : chr  "CG-12520" "CG-12520" "DV-13045" "SO-20335" ...
+ $ Customer.Name: chr  "Claire Gute" "Claire Gute" "Darrin Van Huff" "Sean O'Donnell" ...
+ $ Segment      : chr  "Consumer" "Consumer" "Corporate" "Consumer" ...
+ $ Country      : chr  "United States" "United States" "United States" "United States" ...
+ $ City         : chr  "Henderson" "Henderson" "Los Angeles" "Fort Lauderdale" ...
+ $ State        : chr  "Kentucky" "Kentucky" "California" "Florida" ...
+ $ Postal.Code  : int  42420 42420 90036 33311 33311 90032 90032 90032 90032 90032 ...
+ $ Region       : chr  "South" "South" "West" "South" ...
+ $ Product.ID   : chr  "FUR-BO-10001798" "FUR-CH-10000454" "OFF-LA-10000240" "FUR-TA-10000577" ...
+ $ Category     : chr  "Furniture" "Furniture" "Office Supplies" "Furniture" ...
+ $ Sub.Category : chr  "Bookcases" "Chairs" "Labels" "Tables" ...
+ $ Product.Name : chr  "Bush Somerset Collection Bookcase" "Hon Deluxe Fabric Upholstered Stacking Chairs, Rounded Back" "Self-Adhesive Address Labels for Typewriters by Universal" "Bretford CR4500 Series Slim Rectangular Table" ...
+ $ Sales        : num  262 731.9 14.6 957.6 22.4 ...
+```
+
+
+## Part 2: Learning function from Tidyverse
+
+- รูปแบบการส่งสินค้ามีประเภทอะไรบ้าง และมีจำนวนสิ้นค้าในการจัดส่งแต่ละประเภท อย่างละเท่าใด
+
+```
+sales  %>% count(Ship.Mode) %>% rename(amount = n)
+
+#Result:
+
+```
+
+
+## Part 3: Transform data with dplyr and finding insight the data
+
+//Explain here
+
+```
+#Code here
+```
+
+Result:
+       Ship.Mode amount
+1    First Class   1501
+2       Same Day    538
+3   Second Class   1902
+4 Standard Class   5859
+```
+#Copy Result from console to here
+```
+//Explain
+
+- list 1
+- list 2
+
+## Part 4: Visualization with GGplot2
+### 1.) Graph show relation between height and mass
+```
+scat_plot <- starwars %>% filter(mass<500) %>% ggplot(aes(x=height,y=mass))+
+  geom_point(aes(color=gender))
+
+scat_plot+geom_smooth()
+```
+Result:
+
+![Graph 1](graph1.png)
+
+**Guideline:
+Embed Image by using this syntax in markdown file
+````
+![Name](imageFile)
+````
