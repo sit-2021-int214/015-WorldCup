@@ -6,6 +6,28 @@ Original Datasets from: [WorldCup Dataset](https://www.kaggle.com/mysarahmadbhat
 
 Data from all World Cup results (1930-2014), details for each match (Date, Stage, City, Ref, Home Team, Away Team, Goals, Goals at Half, etc), and details for events (goals, assists, etc) by athlete.
 
+## Contents in Datagram
+1. `Year` : ปีที่ทำการแข่งขัน
+2. `Datetime` : วัน/เวลา ที่เตะ
+3. `Stage` : รอบที่เตะ
+4. `Stadium` : สนามที่เตะ
+5. `City` : เมืองที่่จัดการแข่งขัน
+6. `Home Team Name` : ชื่อที่เหย้า 
+7. `Home Team Goals` : จำนวนลูกทีมเหย้า 
+8. `Away Team Name` : ชื่อทีมเยือน
+9. `Away Team Goals` : จำนวนลูกทีมเยือน
+10. `Win Conditions` : เงื่อนไขของทีมที่ชนะ
+11. `Attendance` : จำนวนของผู้ชม
+12. `Half-time Home Goals` : จำนวนลูกที่ทีมเหย้ายิงในครึ่งแรก
+13. `Half-time Away Goals` : จำนวนลูกที่ทีมเยือนยิงในครึ่งแรก
+14. `Refeeree` : กรรมการในสนาม
+15. `Assistant 1` : ผู้ช่วยกรรมการ (คนที่ 1)
+16. `Assistant 2` : ผู้ช่วยกรรมการ (คนที่ 2)
+17. `RoundID` : เลขไอดีของรอบการแข่งขัน
+18. `MatchID` : เลขไอดีของรอบการแข่งขัน
+19. `Home Team Initials ` : ชื่อย่อทีมเหย้า
+21. `Away Team Initials ` : ชื่อย่อทีมเยือน
+
 ## Overview
 
 Our group chose this dataset because they wanted to study match history, scores, stadiums, cities and countries in which the matches
