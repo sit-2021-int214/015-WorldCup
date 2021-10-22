@@ -16,7 +16,7 @@ Data from all World Cup results (1930-2014), details for each match (Date, Stage
 7. `Home Team Goals` : จำนวนลูกทีมเหย้า 
 8. `Away Team Name` : ชื่อทีมเยือน
 9. `Away Team Goals` : จำนวนลูกทีมเยือน
-10. `Win Conditions` : เงื่อนไขของทีมที่ชนะ
+10. `Win Conditions` : ต่อเวลาพิเศษ
 11. `Attendance` : จำนวนของผู้ชม
 12. `Half-time Home Goals` : จำนวนลูกที่ทีมเหย้ายิงในครึ่งแรก
 13. `Half-time Away Goals` : จำนวนลูกที่ทีมเยือนยิงในครึ่งแรก
