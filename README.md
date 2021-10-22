@@ -1,7 +1,9 @@
 # 015-WorldCup
 
 Original Datasets from: [WorldCup Dataset](https://www.kaggle.com/mysarahmadbhat/world-cup?select=WorldCupMatches.csv)
+
 ![WorldCup](https://github.com/sit-2021-int214/015-WorldCup/blob/master/worldcup.jpg)
+
 ### About's WorldCup Datasets
 
 Data from all World Cup results (1930-2014), details for each match (Date, Stage, City, Ref, Home Team, Away Team, Goals, Goals at Half, etc), and details for events (goals, assists, etc) by athlete.
