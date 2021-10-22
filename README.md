@@ -2,7 +2,7 @@
 
 Original Datasets from: [WorldCup Dataset](https://www.kaggle.com/mysarahmadbhat/world-cup?select=WorldCupMatches.csv)
 
-![WorldCup](https://github.com/sit-2021-int214/015-WorldCup/blob/master/worldcup.jpg)
+![WorldCup](https://github.com/sit-2021-int214/015-WorldCup/blob/master/1.jpeg)
 
 ### About's WorldCup Datasets
 
