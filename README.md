@@ -69,7 +69,7 @@ Our group chose this dataset because they wanted to study match history, scores,
 
 ### References
 
-// Link
+https://www.kaggle.com/mysarahmadbhat/world-cup?select=WorldCupMatches.csv
 
 ## About Us
 
