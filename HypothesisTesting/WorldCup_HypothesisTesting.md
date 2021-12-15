@@ -4,7 +4,7 @@
 และส่วนเบี่ยงเบนมาตรฐาน 19446.89 (กำหนดค่า alpha = 0.05)
 
 ## Step 0: Assign variables
-```r
+```javascript
 n <- 181
 meanAttendancestadium <- worldcup %>% select(Stadium, Attendance) %>% group_by(Stadium) %>% summarize(sumAttendance = mean(Attendance, na.rm=TRUE))
 meanAttendancestadium
