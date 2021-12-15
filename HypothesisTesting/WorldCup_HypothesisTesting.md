@@ -19,26 +19,26 @@ mue0 <- 45000
 
 
 ## Step 1: State the hypothesis
-```ruby
+```sql
 H0: mue >= 45000
 Ha: mue < 45000
 ```
 
 
 Step 2: Level of significance
-```ruby
+```sql
 alpha <- 0.05
 ```
 
 
 Step 3: Test statistic
-```ruby
+```sql
 t <- (meanDataStatium - mue0)/(sdDataStatium/sqrt(n)) #0.9929168
 ```
 
 
 Step 4: Finding P-value approach or Critical Value approach
-```ruby
+```sql
 # P-value approach
 pvalue <- pt(t, (n-1),lower.tail = TRUE) #0.8385047
 
@@ -47,7 +47,7 @@ talpha <- qt(alpha, (n-1), lower.tail = TRUE) #-1.659219
 ```
 
 Step 5: Compare
-```ruby
+```sql
 # Using p-value approach = "Accept H0"
 if(pvalue<=alpha){
   print("Reject H0")
