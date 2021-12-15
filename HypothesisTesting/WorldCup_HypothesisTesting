@@ -1,0 +1,45 @@
+# Analytical Inferential Statistics
+สนามจัดการแข่งขันที่ใช้ในการจัดการแข่งขันฟุตบอลบ่อยที่สุด 100 อันดับแรก มีจำนวนเฉลี่ยของผู้เข้าชมมากที่สุด 100 อันดับแรก
+
+## Step 0: Assign variables
+```
+n <- 181
+stadiumList <- worldcup %>% count(Stadium) %>% arrange(desc(n)) %>% head(n = 100L)
+sdAttendance <- sd(worldcup$Attendance,na.rm = TRUE)
+meanAttendance <- mean(worldcup$Attendance,na.rm = TRUE)
+
+```
+
+
+## Step 1: State the hypothesis
+```
+
+```
+
+
+Step 2: Level of significance
+```
+
+```
+
+
+Step 3: Test statistic
+```
+
+```
+
+
+Step 4: Finding P-value approach or Critical Value approach
+```
+
+```
+
+Step 5: Compare
+```
+
+```
+
+Step 6: Conclusion
+```
+
+```
