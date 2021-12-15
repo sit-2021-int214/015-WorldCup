@@ -34,6 +34,7 @@ Data from all World Cup results (1930-2014), details for each match (Date, Stage
 
 Our group chose this dataset because they wanted to study match history, scores, stadiums, cities and countries in which the matches
 
+## 🔍Object
 สิ่งที่อยากรู้ :
 
 1. คู่ไหนที่ทีมเหย้าและทีมเยือน ยิงประตูในครึ่งหลังรวมกันเกิน 4 ลูก
