@@ -61,7 +61,7 @@ Our group chose this dataset because they wanted to study match history, scores,
 ## 📊Table of Contents
 
 1. [Exploratory Data Analysis](./01.explore.md)
-2. [Data Visualization](./worldcup-group15.pdf)
+2. [Data Visualization](https://github.com/sit-2021-int214/015-WorldCup/blob/master/DataStudio/worldcup-group15.pdf)
 
 ### Important Files in Repository
 
