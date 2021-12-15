@@ -25,19 +25,19 @@ Ha: mue < 45000
 ```
 
 
-Step 2: Level of significance
+## Step 2: Level of significance
 ```sql
 alpha <- 0.05
 ```
 
 
-Step 3: Test statistic
+## Step 3: Test statistic
 ```sql
 t <- (meanDataStatium - mue0)/(sdDataStatium/sqrt(n)) #0.9929168
 ```
 
 
-Step 4: Finding P-value approach or Critical Value approach
+## Step 4: Finding P-value approach or Critical Value approach
 ```sql
 # P-value approach
 pvalue <- pt(t, (n-1),lower.tail = TRUE) #0.8385047
@@ -46,7 +46,7 @@ pvalue <- pt(t, (n-1),lower.tail = TRUE) #0.8385047
 talpha <- qt(alpha, (n-1), lower.tail = TRUE) #-1.659219
 ```
 
-Step 5: Compare
+## Step 5: Compare
 ```sql
 # Using p-value approach = "Accept H0"
 if(pvalue<=alpha){
@@ -63,7 +63,7 @@ if(t<=talpha){
 }
 ```
 
-Step 6: Conclusion
+## Step 6: Conclusion
 ```
 สนามจัดการแข่งขันที่ใช้ในการจัดการแข่งขันฟุตบอลมากกว่า 4 ครั้ง มีค่าเฉลี่ยผู้เข้าชมมากกว่า 45000
 ```
