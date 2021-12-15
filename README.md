@@ -30,7 +30,7 @@ Data from all World Cup results (1930-2014), details for each match (Date, Stage
 19. `Home Team Initials ` : ชื่อย่อทีมเหย้า
 21. `Away Team Initials ` : ชื่อย่อทีมเยือน
 
-## Overview
+## ⚽Overview
 
 Our group chose this dataset because they wanted to study match history, scores, stadiums, cities and countries in which the matches
 
@@ -42,7 +42,7 @@ Our group chose this dataset because they wanted to study match history, scores,
 4. การแข่งขันฟุตโลกในปีไหนที่มีผู้เข้ารับชมเกิน 100,000 คน
 5. ในการแข่งขันปีไหนที่มีจำนวนการยิงประตูรวมมากที่สุด
 
-### Steps
+### 📌Steps
 
 1. Define a question
 2. Search datasets from Kaggle
@@ -51,12 +51,12 @@ Our group chose this dataset because they wanted to study match history, scores,
 5. Cleaning Dataset
 6. Exploratory Data Analysis
 
-### Tools
+### 📝Tools
 
 - R Language
 - R Studio Desktop
 
-## Table of Contents
+## 📊Table of Contents
 
 1. [Exploratory Data Analysis](./01.explore.md)
 2. [Data Visualization]()
@@ -73,7 +73,7 @@ Our group chose this dataset because they wanted to study match history, scores,
 
 https://www.kaggle.com/mysarahmadbhat/world-cup?select=WorldCupMatches.csv
 
-## About Us
+## 🙍‍♂️🙍‍♀️About Us
 
 งานนี้เป็นส่วนของวิชา INT214 Statistics for Information technology <br/> ภาคเรียนที่ 1 ปีการศึกษา 2564 คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
 
