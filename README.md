@@ -56,6 +56,7 @@ Our group chose this dataset because they wanted to study match history, scores,
 
 - R Language
 - R Studio Desktop
+- Google Data Studio
 
 ## 📊Table of Contents
 
