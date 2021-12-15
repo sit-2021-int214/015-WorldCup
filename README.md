@@ -61,8 +61,6 @@ Our group chose this dataset because they wanted to study match history, scores,
 1. [Exploratory Data Analysis](./01.explore.md)
 2. [Data Visualization]()
 
-## Resources
-
 ### Important Files in Repository
 
 - [code_eda.R](./worldcup.R) : Exploratory Data Analysis
