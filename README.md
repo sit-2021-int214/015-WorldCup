@@ -1,4 +1,4 @@
-# 015-WorldCup
+# 015-WorldCup ⚽🏆
 
 Original Datasets from: [WorldCup Dataset](https://www.kaggle.com/mysarahmadbhat/world-cup?select=WorldCupMatches.csv)
 
@@ -88,7 +88,7 @@ https://www.kaggle.com/mysarahmadbhat/world-cup?select=WorldCupMatches.csv
 4. นภัสวรรณ บุตรวัตร StudentID: 63130500064
 5. นิธิศ ลำพาย StudentID: 63130500072
 
-### Instructor
+### 👨‍🏫Instructor
 
 - ATCHARA TRAN-U-RAIKUL
 - JATAWAT XIE (Git: [safesit23](https://github.com/safesit23))
