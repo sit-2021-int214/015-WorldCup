@@ -63,7 +63,7 @@ Our group chose this dataset because they wanted to study match history, scores,
 
 1. [Exploratory Data Analysis](./01.explore.md)
 2. [Data Visualization](https://github.com/sit-2021-int214/015-WorldCup/blob/master/DataStudio/worldcup-group15.pdf)
-3. [Hypothesis]()
+3. [Hypothesis](https://github.com/sit-2021-int214/015-WorldCup/blob/master/HypothesisTesting/WorldCup_HypothesisTesting.md)
 4. [Presentation](https://www.canva.com/design/DAEya1IXIBc/XiSGBefRwJ7r9zL27epvTg/view?utm_content=DAEya1IXIBc&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
 
 ### Important Files in Repository
