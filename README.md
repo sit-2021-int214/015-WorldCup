@@ -66,13 +66,13 @@ Our group chose this dataset because they wanted to study match history, scores,
 3. [Hypothesis](https://github.com/sit-2021-int214/015-WorldCup/blob/master/HypothesisTesting/WorldCup_HypothesisTesting.md)
 4. [Presentation](https://www.canva.com/design/DAEya1IXIBc/XiSGBefRwJ7r9zL27epvTg/view?utm_content=DAEya1IXIBc&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
 
-### Important Files in Repository
+### 📂Important Files in Repository
 
 - [code_eda.R](./worldcup.R) : Exploratory Data Analysis
 - [worldcup_original.csv](./WorldCupMatches.csv): Original Dataset
 - [worldcup_clean.csv](./worldcupclean.csv): Clean Dataset
 
-### References
+### 📰References
 
 https://www.kaggle.com/mysarahmadbhat/world-cup?select=WorldCupMatches.csv
 
